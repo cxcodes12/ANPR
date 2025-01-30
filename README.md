@@ -1,2 +1,3 @@
 # ANPR
-The purpose of this project is to create a primary version of Automatic Number Plate Recognition using edge detection and Easy OCR.
+The purpose of this project is to create a primary version of Automatic Number Plate Recognition using edge detection and Easy OCR. Due to the regular rectangular shape of license plates, at this moment we assumed edge detection is an appropiate technique in most cases to detect the plate edges and check if it is rectangular. If so, we get the region of interest and apply easy OCR in Python to extract the test. Sometimes, the edge detection fails due to bad weather, perspective or not enough contrast to extract the plate. Sometimes. the EasyOCR fails to correctly recognize each letter due to small resolution of the plate or bad perspective. Anyway it works fine in good conditions, as you can see in some examples I posted here. 
+The entire code is written in Python. 
